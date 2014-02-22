@@ -64,6 +64,6 @@ SELECT
 FROM
     requests
 WHERE
-    curr_type='AUD'
+    curr_type='USD'
     AND status='FINAL'
 ;
