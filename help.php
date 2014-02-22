@@ -16,7 +16,7 @@
 </p>
 <p>
     The source code for this website is available online at <a
-    href="https://github.com/dooglus/intersango">github</a>. We
+    href="https://github.com/ChrisC5983/intersango">github</a>. We
     believe hiding the workings of a website is a poor substitute for
     good security.
 </p>
@@ -108,93 +108,55 @@
     with Bitcoin. The “ease of sending large funds globally”
     unfortunately has the potential to become the “ease of stealing
     large funds globally”. With this in mind <?php echo SITE_NAME; ?>
-    set out to find well qualified security experts. Our search led us
-    to Dug Song, Jon Oberheide and their team at Duo Security.
+    set out to find well vetted security measures.
 </p>
 <p>
     <strong>How this will work for our users:</strong><br />
-    For detailed information visit their site at <a
-    href="http://www.duosecurity.com/docs/authentication"
-    target="_blank">http://www.duosecurity.com/docs/authentication</a>
+    For detailed information visit The Google Auth Website <a
+    href="http://code.google.com/p/google-authenticator/"
+    target="_blank">http://code.google.com/p/google-authenticator/</a>
 </p>
 <p>
-    We are offering 5 ways to authenticate your Intersango login. All
-    are optional; if you do not wish to activate 2
-    factor-authentication it won&#8217;t be required. You can activate
+    We are offering Google Authenticator to help our users secure their accounts. 2 
+    factor is completely optional, altho highly recomended. You can activate
     this by (clicking Security Use two-factor authentification in the
-    right menu panel.)
+    right menu panel.) We are busy looking for more methods to help our users secure their account
+    but in the meantime Google Auth should work fine for most users.
 </p>
 <p>
-    <strong>Phone callback</strong> –
-        You will receive a call, push a predesignated key to
-        authenticate<br />
-    <strong>Passcodes via SMS </strong> –
-        Duo will send you a set of passcodes used to login<br /> 
-    <strong>Passcodes via Duo Mobile</strong> -
-        Your phone will generate a passcode (works offline)<br /> 
-    <strong>Duo Push</strong> –
-        Your phone will be sent a request when you try to log in<br /> 
-    <strong>Hard tokens</strong> –
-        We can ship you a physical token that will be used to login
-        for onetime fee of $20
+    <strong>Phone App</strong> –
+        You will receive a QR code or key string to key into the Google Authenticator App
+        it will then give you a numerical string to enter everytime you log in.<br />
 </p>
 <p>
-    The beauty of their system is how quick and simple it is to both
+    The beauty of the system is how quick and simple it is to both
     implement and use. Within minutes you can be up and
-    running. Additionally there are even more advanced security
-    features for Duo Push. Selecting Duo Push will &#8220;push&#8221;
-    a login request to your phone. You can review the specifics of the
-    request (integration, location, etc.) and then approve or deny it
-    instantly. Click here for a quick 30 second video showcasing the
-    various methods: <a href="http://www.youtube.com/watch?v=7N8pBVAWLwU"
-    target="_blank">http://www.youtube.com/watch?v=7N8pBVAWLwU</a>
+    running. A
 </p>
 <p>
     <strong>What will this enhanced security feature cost the user?</strong><br />
-    For the first month absolutely nothing. After you have evaluated
-    the system in our live environment, to continue the service we
-    deduct a small fee of $5.00 (or BTC equivalent) on the 1st of
-    every month. If we can justify charging less we will. To continue
-    receiving this service a minimum of $5.00 (or BTC equivalent) is
-    required in your account. Regardless in the absolute worst case
-    scenario this service will never cost the user more than $5.00 (or
-    BTC equivalent) per month. In the event the funds are not
-    available in the user account on the 1st of the month, your
-    account will revert back to regular "One Factor" authentification
-    immediately.  You can opt out of the service at any time by
-    contacting us.
-</p>
-<p>
-    You can add additional phone numbers or remove a phone for a small
-    fee of $1.00 (or BTC equivalent) by contacting us.
+    Absolutely nothing. 
 </p>
 <p>
     Your feedback is greatly appreciated as always. We would like to
     continue to provide you a safe and trusted place to exchange
     Bitcoins. Questions please email us at <a
-    href="mailto:support@intersango.com.au">support@intersango.com.au</a>
+    href="mailto:support@ClaudsXchange.com">Support@ClaudsXchange.com</a>
 </p> 
 </div>
 
 <div class='content_box'>
 <h3>Information</h3>
 <p>
-    <b>We are now accepting deposits from the following STATES of
-    Australia:</b>
-</p>
-<p>
-    <b>Queensland, Victoria, New South Wales, Western Australia,
-    Tasmania, Northern Territory, Australian Capital Territory, South
-    Australia</b>
+    <b>We are now accepting deposits from the United States, We hope to add more soon.:</b>
 </p>
 <p>
     If the bank account you will use to fund your <?php echo SITE_NAME; ?> account
-    is in one of the aforementioned States, please feel free to
-    deposit to our bank. If your bank account is not in Australia or
-    one of the aforementioned States, your transfer will be rejected.
+    is in the United States, please feel free to
+    deposit to our bank. If your bank account is not in America s, your transfer will be rejected.
 </p>
 <p>
-    We also will be processing withdraws to those States but only on
+    We also will be processing withdraws to the United States but only on
     the condition that the user has deposited money before.
 </p>
 <p>
@@ -207,48 +169,26 @@
 <div class='content_box'>
 <h3>About us</h3>
 <p>
-    My name is Andre Jensen, Managing Director of High Net Worth
-    Property Pty Ltd based in Gold Coast, Australia, Our company
-    provides High Net Worth individuals in Australia with investment
-    products and services, recently we have taken an interest in
-    Bitcoin for its investment opportunities, we have been following
-    Bitcoin's success for the past 3 months and found out there was no
-    fully operating Bitcoin Exchange in Australia.
+    Put Personal Info Here
 </p>
 <p>
-    Recently we partnered and acquired the services of one of
-    Bitcoin's few active developers<a href="mailto:dooglus@gmail.com">
-    Chris Moore</a> to install the exchange increasing security and
-    user experience. You can see Chris Moore's updates here <a
-    href="https://github.com/dooglus/intersango">Github</a> under the
-    name dooglus where Chris has a strong reputation amongst other
-    exchanges on the market.
+    We Started this project from Source Code from Dooglus who in turn started his work on the code after
+    working for the Intersango exchange site.
 </p>
 <p>
-    Amir Taaki developed the open source software for: this exchange,
-    a Bitcoin stock market exchange, a Bitcoin client (Spesmilo) and
-    others.
+    For information regarding Dooglus and his current Projects please visit some of his pages like the ones below:
+    Insert Dooglus info here
 </p>
 <p>
-    For a list of Amir Taaki's current projects please visit <a
-    href="http://bitcoinconsultancy.com/wiki/index.php/Main_Page">Bitcoin
-    Consultancy's wiki page</a>.
-</p>
-<p>
-    <?php echo SITE_NAME; ?> is my decision to provide those living in
-    Australia with an exchange in order to promote awareness in
-    Australia and allow Australian residents to not miss out on the
-    benefits of using Bitcoins and being part of this great social
-    change!
+    <?php echo SITE_NAME; ?> is my decision to provide an exchange to and from CryptoCurrencies.
 </p>
 </div>
 
 <div class='content_box'>
 <?php show_contact_info(); ?>
 <p>
-    <?php echo SITE_NAME; ?> is currently operating unlicensed. We are
-    seeking legitimisation. Until then, all transactions have a low
-    commission structure.
+    <?php echo SITE_NAME; ?> is currently looking into current Legal Standings. Until then we are operating in a 
+    alpha or beta stage and will be charging low or no fees.
 </p>
 </div>
 
@@ -271,8 +211,8 @@ else { ?>
 <div class='content_box'>
 <h3><?php echo CURRENCY; ?> Withdraws</h3>
 <p>
-    To withdraw funds to any nominated Australian Bank Account, please provide the correct
-    B.S.B and Account Number; any incorrect details will result in a <strong>"cancel"</strong>
+    To withdraw funds to any viable American Bank, please provide the correct
+    banking information; any incorrect details will result in a <strong>"cancel"</strong>
     status, All funds will be returned to the user's account on the exchange and
     you will be required to re-submit the withdraw.
 </p>
@@ -282,7 +222,7 @@ else { ?>
 <h3>Account limits</h3>
 <p>
     <strong>Daily Bitcoin transfer limits:</strong> Default Bitcoin
-    withdrawal limit is 100 coins per day. This limit is in place to
+    withdrawal limit is 1 coins per day. This limit is in place to
     protect users in case their account is compromised. If you would
     like to increase this daily Bitcoin withdrawal limit for your
     account, please contact support.
@@ -290,18 +230,17 @@ else { ?>
 <p>
     <strong>Daily money transfer limits:</strong> Unlike Bitcoins,
     flow of money is heavily regulated by law. So the maximum amount
-    you can transfer is capped at <?php echo CURRENCY; ?> 500 per day. Withdrawals and
+    you can transfer is capped at <?php echo CURRENCY; ?> 1000 per day. Withdrawals and
     deposits both count towards this limit.
 </p>
 <p>
     Default maximum account size limit is <?php echo CURRENCY; ?> 5,000; if you would like
     to raise this limit, please submit a Request to Support and we
-    will guide you through the AML/CFT process as mandated under the
-    Anti-Money Laundering and Counter-Terrorism Financing Act 2006.
-    (AML/CTF Act) received Royal Assent on 12 December 2006.
+    will make decisions on a case by case basis.
 </p>
 </div>
 
+//Edit The TOS as Needed
 <div class='content_box'>
 <h3>Terms and conditions</h3>
 <p>
@@ -354,6 +293,8 @@ else { ?>
     advice tailored to your situation.
 </p>
 </div>
+
+//Edit the Privacy Policy as we see fit
 
 <div class='content_box'>
 <h3>Privacy policy</h3>
