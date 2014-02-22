@@ -52,7 +52,7 @@ for b1 in c.fetchall():
             FROM purses
             WHERE
                 uid=%i
-                AND type='AUD'
+                AND type='USD'
             """%uid)
         print c.fetchall()
         print '-------------------------'
