@@ -4,11 +4,11 @@ import getpass
 db = MySQLdb.connect("localhost","root",getpass.getpass(),"intersango")
 
 expected_site_balance = {}
-expected_site_balance['AUD'] = 0
+expected_site_balance['USD'] = 0
 expected_site_balance['BTC'] = 0
 
 site_balance = {}
-site_balance['AUD'] = 0
+site_balance['USD'] = 0
 site_balance['BTC'] = 0
 
 def balance_user(user_id):
