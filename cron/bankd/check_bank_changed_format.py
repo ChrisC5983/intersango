@@ -5,7 +5,7 @@ c = db.cursor()
 c.execute("""
     SELECT *
     FROM bank_statement
-    WHERE bank_name='LloydsTSB'
+    WHERE bank_name='PNC'
     """)
 count = 0
 fin_bids = []
@@ -19,7 +19,7 @@ for b1 in c.fetchall():
         FROM bank_statement
         WHERE 
             entry LIKE '%%%s'
-            AND bank_name='LloydsTSB'
+            AND bank_name='PNC'
             AND bid!='%i'
             AND status!='PAYOUT'
         """%(balance, bid))
