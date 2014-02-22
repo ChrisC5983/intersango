@@ -39,7 +39,7 @@ def balance_user(user_id):
     c.close()
     
     expected_balance = {}
-    expected_balance['AUD'] = 0
+    expected_balance['USD'] = 0
     expected_balance['BTC'] = 0
     
     for amount,type in deposits:
